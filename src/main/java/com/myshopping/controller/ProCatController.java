@@ -13,7 +13,7 @@ import com.myshopping.model.ProductCategory;
 import com.myshopping.productservice.ProductCategoryService;
 import com.myshopping.service.ProductsDaoService;
 
-@CrossOrigin(origins={"http://localhost:4200/","http://localhost:3000/","https://papaya-peony-70af71.netlify.app/"})
+@CrossOrigin(origins={"http://localhost:4200/","http://localhost:3000/","https://myshoppingbharat.netlify.app/"})
 @RestController
 public class ProCatController {
 

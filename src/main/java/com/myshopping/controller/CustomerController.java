@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.myshopping.model.Customer;
 import com.myshopping.service.CustomerDaoService;
 
-@CrossOrigin(origins={"http://localhost:4200/","http://localhost:3000/","https://papaya-peony-70af71.netlify.app/"})
+@CrossOrigin(origins={"http://localhost:4200/","http://localhost:3000/","https://myshoppingbharat.netlify.app/"})
 @RestController
 public class CustomerController {
 
