@@ -22,7 +22,7 @@ import com.myshopping.model.Orders;
 import com.myshopping.service.CartService;
 import com.myshopping.service.OrdersDaoService;
 
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin(origins={"http://localhost:4200/","http://localhost:3000/","https://papaya-peony-70af71.netlify.app/"})
 @RestController
 @RequestMapping("/cart")
 public class CartController {

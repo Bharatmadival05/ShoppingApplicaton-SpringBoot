@@ -23,7 +23,7 @@ import com.myshopping.productservice.ProductService;
 import com.myshopping.service.ProductsDaoService;
 
 
-@CrossOrigin(origins={"http://localhost:4200/","http://localhost:4300/"})
+@CrossOrigin(origins={"http://localhost:4200/","http://localhost:3000/","https://papaya-peony-70af71.netlify.app/"})
 @RestController
 public class ProductsController {
 
