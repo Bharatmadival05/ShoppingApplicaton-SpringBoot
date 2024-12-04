@@ -53,6 +53,7 @@ private static Connection connection;
         return cart;
     }
 
+    
     @Override
     public void addItemToCart(String username, CartItem item) {
         int cartId = getCartIdByUsername(username);

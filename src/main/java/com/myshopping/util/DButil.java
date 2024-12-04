@@ -13,9 +13,9 @@ public class DButil {
             return connection;
         } else {
             String driver = "com.mysql.cj.jdbc.Driver";
-            String url = "jdbc:mysql://root:VAlbqOLjySJlgUYFCnhhSLMSjwBiAyKt@autorack.proxy.rlwy.net:38148/railway";
+            String url = "jdbc:mysql://root:XWOsxYVDYsrlPhgoeZJilGUqsEHdAGvE@junction.proxy.rlwy.net:46793/railway";
             String user = "root";
-            String password = "VAlbqOLjySJlgUYFCnhhSLMSjwBiAyKt";
+            String password = "XWOsxYVDYsrlPhgoeZJilGUqsEHdAGvE";
 
             try {
                 Class.forName(driver);
